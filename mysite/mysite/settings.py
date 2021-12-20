@@ -40,9 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
-ASGI_APPLICATION = 'mysite.routing.application'
-
-# Channel layers
+ASGI_APPLICATION = 'mysite.asgi.application'
 CHANNEL_LAYERS = {
     'default': {
         'BACKEND': 'channels_redis.core.RedisChannelLayer',
