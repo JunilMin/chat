@@ -42,3 +42,7 @@ virtualenv-clone==0.5.7
 wincertstore==0.2
 wrapt==1.13.3
 zope.interface==5.4.0
+selenium==3.141.0
+datetime
+pyfcm==1.5.1
+firebase_admin==4.5.0
